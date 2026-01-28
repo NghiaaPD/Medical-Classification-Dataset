@@ -6,8 +6,6 @@
 | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------- |
 | Kaggle Diabetic Retinopathy Detection           | Ảnh fundus võng mạc dùng để phân loại mức độ diabetic retinopathy; dataset chính trong nhiều nghiên cứu DR.                               | [https://www.kaggle.com/c/diabetic-retinopathy-detection](https://www.kaggle.com/c/diabetic-retinopathy-detection)                                                                                 | 5 classes: No DR, Mild, Moderate, Severe, Proliferative DR  | 2D              |
 | Cataract–DR Fundus Images Dataset               | Fundus ảnh đa bệnh võng mạc: Cataract, DR, Normal (và Glaucoma tùy dataset).                                                              | [https://www.kaggle.com/datasets/drskprabhakar/cataract-dr-normal-glaucoma-fundus-images-dataset](https://www.kaggle.com/datasets/drskprabhakar/cataract-dr-normal-glaucoma-fundus-images-dataset) | 3–4 classes                                                 | 2D              |
-| Chest X-Ray Pneumonia Dataset                   | Ảnh X-ray ngực dùng để phát hiện pneumonia; phân loại nhị phân.                                                                           | [https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)                                                   | 2 classes: Normal, Pneumonia                                | 2D              |
-| Cervical Cancer Largest Dataset (SipakMed)      | Tập ảnh tế bào cổ tử cung dùng để phân loại các loại tế bào bình thường và bất thường.                                                    | [https://www.kaggle.com/datasets/prahladmehandiratta/cervical-cancer-largest-dataset-sipakmed](https://www.kaggle.com/datasets/prahladmehandiratta/cervical-cancer-largest-dataset-sipakmed)       | Multi-class cervical cells                                  | 2D              |
 
 
 ## **Form orther resource**
@@ -21,3 +19,14 @@
 | Medical Imaging (CT/MRI/X-ray/Microscopic) Data | Dữ liệu y tế tổng hợp gồm CT, MRI, X-ray, hiển vi cho nhiều bài toán phân loại bệnh.                                                      | [https://data.mendeley.com/datasets/5kbjrgsncf/3](https://data.mendeley.com/datasets/5kbjrgsncf/3)                                                                                                 | Multi-class (lung cancer, brain tumor, bone fracture, etc.) | Mixed (2D & 3D) |
 | MedMNIST+ (18 standardized datasets)            | Bộ dữ liệu chuẩn hóa gồm 18 dataset biomedical chuẩn hóa kích thước (28, 64, 128, 224); hỗ trợ ảnh **2D và 3D** cho classification tasks. | [https://zenodo.org/records/10519652](https://zenodo.org/records/10519652)                                                                                                                         | Binary/multi-class/multi-label (tùy dataset)                | 2D & 3D         |
 | NIH Chest X-Ray (NIHCC)                         | Dataset chest X-ray lớn (>100k ảnh) với nhãn bệnh ngực tự động; multi-label.                                                              | [https://nihcc.app.box.com/v/ChestXray-NIHCC](https://nihcc.app.box.com/v/ChestXray-NIHCC)                                                                                                         | Multi-label: 14 thoracic diseases                           | 2D              |
+| SIPaKMeD         | Cervical cell Pap smear images with 5 class labels capturing normal, benign, and abnormal cell types for cytological classification. | [https://www.cs.uoi.gr/~marina/sipakmed.html](https://www.cs.uoi.gr/~marina/sipakmed.html) | Superficial-Intermediate, Parabasal, Koilocytotic, Dyskeratotic, Metaplastic | 2D Microscopic Image |
+| Chest X-Ray Pneumonia Dataset  | Chest X-ray images labeled for pneumonia vs normal binary classification, sourced from pediatric clinical radiographs. | [https://huggingface.co/datasets/hf-vision/chest-xray-pneumonia](https://huggingface.co/datasets/hf-vision/chest-xray-pneumonia) | Normal, Pneumonia | 2 classes: Normal, Pneumonia  |2D Chest X-ray Image |
+
+
+
+
+
+
+
+
+
