@@ -10,8 +10,7 @@
 | NIH Chest X-Ray (NIHCC)                         | Dataset chest X-ray lớn (>100k ảnh) với nhãn bệnh ngực tự động; multi-label.                                                              | [https://nihcc.app.box.com/v/ChestXray-NIHCC](https://nihcc.app.box.com/v/ChestXray-NIHCC)                                                                                                         | Multi-label: 14 thoracic diseases                           | 2D              |
 | SIPaKMeD         | Cervical cell Pap smear images with 5 class labels capturing normal, benign, and abnormal cell types for cytological classification. | [https://www.cs.uoi.gr/~marina/sipakmed.html](https://www.cs.uoi.gr/~marina/sipakmed.html) | Superficial-Intermediate, Parabasal, Koilocytotic, Dyskeratotic, Metaplastic | 2D Microscopic Image |
 | Chest X-Ray Pneumonia Dataset  | Chest X-ray images labeled for pneumonia vs normal binary classification, sourced from pediatric clinical radiographs. | [https://huggingface.co/datasets/hf-vision/chest-xray-pneumonia](https://huggingface.co/datasets/hf-vision/chest-xray-pneumonia) | 2 classes: Normal, Pneumonia  |2D Chest X-ray Image |
-
-
+| **LIDC-IDRI**    | Large-scale thoracic CT dataset with expert annotations of lung nodules provided by multiple radiologists, designed for lung nodule detection, segmentation, and malignancy assessment in lung cancer research. | [https://www.cancerimagingarchive.net/collection/lidc-idri/](https://www.cancerimagingarchive.net/collection/lidc-idri/) | Nodule ≥3 mm, Nodule <3 mm, Non-nodule | 3D Chest CT Image |
 
 
 
